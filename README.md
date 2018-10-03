@@ -1,3 +1,62 @@
+## Folder structure
+```
+src
+├── App.css
+├── App.js
+├── App.test.js
+├── assets
+│   ├── icons
+│   ├── images
+│   └── scss
+│       ├── _base.scss
+│       ├── _grid.scss
+│       ├── _helpers.scss
+│       ├── _normalise-reset.scss
+│       ├── _settings.scss
+│       ├── _shame.scss
+│       ├── components
+│       │   └── _import.scss
+│       ├── index.js
+│       ├── main.scss
+│       ├── mixins
+│       │   └── _import.scss
+│       └── vendors
+│           └── _import.scss
+├── components
+│   ├── layouts
+│   │   ├── Home
+│   │   │   └── Home.js
+│   │   └── index.js
+│   ├── pages
+│   │   └── index.js
+│   └── ui
+│       └── index.js
+├── index.css
+├── index.js
+├── logo.svg
+├── main.css
+├── main.css.map
+├── redux
+│   ├── actions
+│   │   ├── index.js
+│   │   └── signup.actions.js
+│   ├── constants
+│   │   ├── index.js
+│   │   └── signup.constants.js
+│   ├── reducers
+│   │   ├── index.js
+│   │   └── signup.reducer.js
+│   └── store
+│       ├── index.js
+│       └── store.js
+├── serviceWorker.js
+└── utils
+    ├── apiServices.js
+    ├── helperService.js
+    ├── history.js
+    └── index.js
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

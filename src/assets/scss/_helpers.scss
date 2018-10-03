@@ -1,0 +1,72 @@
+.h-hr {
+  height: 1px;
+  border-top: 1px solid $g-color-border;
+  width: 100%;
+}
+
+.h-none-decoration {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.h-full-height {
+  height: 100%;
+}
+
+.h-block {
+  display: block;
+}
+
+.h-spacing-2x-small {
+  margin-bottom: rem($g-spacing-2x-small);
+}
+
+.h-spacing-x-small {
+  margin-bottom: rem($g-spacing-x-small);
+}
+
+.h-spacing-small {
+  margin-bottom: rem($g-spacing-small);
+}
+
+.h-spacing {
+  margin-bottom: rem($g-spacing);
+}
+
+.h-spacing-large {
+  margin-bottom: rem($g-spacing-large);
+}
+
+.h-spacing-x-large {
+  margin-bottom: rem($g-spacing-large * 2);
+}
+
+.h-spacing-2x-large {
+  margin-bottom: rem($g-spacing-large * 3);
+}
+
+
+// Colours
+.h-color-primary {
+  color: $g-color-primary;
+}
+
+.h-color-success {
+  color: $g-color-success;
+}
+
+// Font related
+.h-text-strong {
+  font-weight: $g-font-weight-semibold;
+}
+
+// State Helper
+.is-hidden {
+  display: none !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

@@ -1,0 +1,171 @@
+/**
+ * The scale.
+ */
+
+// Base
+$g-font-size: 16;
+
+// Decrease
+$g-font-size-small: $g-font-size - 2;
+
+$g-font-size-x-small: $g-font-size - 4;
+
+$g-font-size-2x-small: $g-font-size - 6;
+
+
+// Increase
+$g-font-size-large: $g-font-size + 2;
+
+$g-font-size-x-large: $g-font-size + 4;
+
+$g-font-size-2x-large: $g-font-size + 8;
+
+
+$g-spacing: 16;
+
+// Decrease
+$g-spacing-small: floor($g-spacing * 0.75); // 12
+
+$g-spacing-x-small: floor($g-spacing * 0.5); // 8
+
+$g-spacing-2x-small: floor($g-spacing * 0.25); // 4
+
+
+// Increase
+$g-spacing-large: ceil($g-spacing * 1.25); // 20
+
+$g-spacing-x-large: ceil($g-spacing * 1.75);
+
+$g-spacing-2x-large: ceil($g-spacing * 2.5);
+
+$g-spacing-3x-large: ceil($g-spacing * 3.5);
+
+$g-spacing-4x-large: ceil($g-spacing * 5);
+
+// Font Weight
+$g-font-weight-bold: 700;
+
+$g-font-weight-semibold: 600;
+
+$g-font-weight: 400;
+
+$g-font-weight-light: 300;
+
+
+$g-color-white: #fff;
+
+$g-color-black: #000;
+
+
+// Text Colour
+$g-color-primary: #0bb4b4;
+
+$g-color-text: #4a4a4a;
+
+$g-color-text-secondary: #03455d;
+
+$g-color-text-grey: #4a4a4a;
+
+$g-color-background: #edf2fa;
+
+$g-color-background-dark: #03455D;
+
+$g-color-background-light: #fbfcff;
+
+$g-color-background-success: #f5fffa;
+
+// Colour
+$g-color-header: #edf2fa;
+
+$g-color-border: #ced5df;
+
+$g-color-border-dark: #adadad;
+
+$g-color-danger: #F5312A;
+
+$g-color-success: #21C479;
+
+
+/*
+ * Colour palette based on
+ * https://material.io/guidelines/style/color.html#color-color-palette
+ */
+
+
+// Colour: Grey
+$g-color-grey-50: #fafafa;
+
+$g-color-grey-100: #f5f5f5;
+
+$g-color-grey-200: #eeeeee;
+
+$g-color-grey-300: #e0e0e0;
+
+$g-color-grey-400: #bdbdbd;
+
+$g-color-grey-500: #9e9e9e;
+
+$g-color-grey-600: #757575;
+
+$g-color-grey-700: #616161;
+
+$g-color-grey-800: #424242;
+
+$g-color-grey-900: #212121;
+
+
+// Colour: Blue
+$g-color-blue-50: #E3F2FD;
+
+$g-color-blue-100: #BBDEFB;
+
+$g-color-blue-200: #90CAF9;
+
+$g-color-blue-300: #64B5F6;
+
+$g-color-blue-400: #42A5F5;
+
+$g-color-blue-500: #2196F3;
+
+$g-color-blue-600: #1E88E5;
+
+$g-color-blue-700: #1976D2;
+
+$g-color-blue-800: #1565C0;
+
+$g-color-blue-900: #0D47A1;
+
+// Colour: Green
+$g-color-green-50: #E8F5E9;
+
+$g-color-green-100: #C8E6C9;
+
+$g-color-green-200: #A5D6A7;
+
+$g-color-green-300: #81C784;
+
+$g-color-green-400: #66BB6A;
+
+$g-color-green-500: #4CAF50;
+
+$g-color-green-600: #43A047;
+
+$g-color-green-700: #388E3C;
+
+$g-color-green-800: #2E7D32;
+
+$g-color-green-900: #1B5E20;
+
+$g-color-green-a100: #B9F6CA;
+
+$g-color-green-a200: #69F0AE;
+
+$g-color-green-a400: #00E676;
+
+$g-color-green-a700: #00C853;
+
+// Form elements
+$g-form-radius: 4px;
+
+// Global
+$g-header-nav-height-desktop: 56;
